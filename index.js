@@ -46,7 +46,7 @@ function Person(name, age) {
 
 Person.prototype.eat = function(food) {
   if (this.stomach.length < 10) {
-    this.stomach.push(food);
+    this.stomach.push(food
   } else {
     this.poop();
   }
